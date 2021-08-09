@@ -49,7 +49,7 @@ bananas out known to man." key="twdesc" />
                     </p>
                     <p className="text-2xl text-white my-6  montserrat">
                     <strong>LAUNCH DATE:</strong> 29 June 2021. 2pm EST. <br />‍
-                    <span className="text-white text-2xl montserrat"><strong>TOTAL SUPPLY: 8888</strong> Bananas.<br/><strong>PRICE: 0.025 ETH </strong>each.</span></p>
+                    <span className="text-white text-2xl montserrat"><strong>TOTAL SUPPLY: 1000</strong> Skulls.<br/><strong>PRICE: 0.03 ETH </strong>each.</span></p>
                     <iframe src="https://free.timeanddate.com/countdown/i7vcex5b/n107/cf11/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw448/szh189/iso2021-06-29T21:00:00" allowtransparency="true" frameBorder="0" width="425" height="25"></iframe>
 
                   </div>
@@ -71,13 +71,7 @@ bananas out known to man." key="twdesc" />
                   <div className="border-4 border-blue-300 p-4"><img src="images/Traits4.gif" alt="" width="400px" className="feature-image"/></div>
                   <div className="flex flex-col justify-between mx-6 sm:w-1/2 w-4/5 py-6 ">
                     <h2 className="text-blau Poppitandfinchsans text-6xl text-center">BANANA VARIETIES</h2>
-                    <p className="text-xl text-white my-6  montserrat"> Following the recent worldwide pandemic, <span className="font-bold"> emerging reports </span>  suggest that several <span className="font-bold"> banana species </span> have begun exhibiting <span className="font-bold"> strange characteristics. </span> Our research team located across the globe has commenced efforts to <span className="font-bold"> study and document </span>  these unusual phenomena.   
-                    </p>
-                    <p className="text-xl text-white my-6  montserrat"> Concerned about parties trying to suppress our research, the team has opted to store our findings on the blockchain to prevent interference. Although this is a costly endeavour, our mission has never been clearer.   
-                    </p>
-                    <p className="text-xl text-white my-6  montserrat"> The fate of the world's bananas depends on it.
-                    </p>
-                    <p className="text-xl text-white my-6  montserrat"> Your support in this time of need is greatly appreciated!   
+                    <p className="text-xl text-white my-6  montserrat"> The BMF Skulls are a secret society that have been right in the front of your eyes, and you've never known it! We know your move before you do. We move in silence for only a chosen few will be brought on board and privy to see what our secret society sees! Veil will be lifted once we recognize your allegiance to the secret skull society.   
                     </p>
                   </div>
                 </div>
