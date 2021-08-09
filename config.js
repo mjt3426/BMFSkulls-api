@@ -1,9 +1,9 @@
 
 // GET YOUR INFURA API ENDPOINT FROM https://infura.io/
-export const INFURA_ADDRESS = ""
+export const INFURA_ADDRESS = "https://ropsten.infura.io/v3/0190a98b39964032abc332c76c8bfa7b"
 
 
-export const ADDRESS = "0xB9aB19454ccb145F9643214616c5571B8a4EF4f2"
+export const ADDRESS = "0xc40CBCb0d1816549A5a7735D90C0d06715eC0620"
 
 export const ABI = [
 	{
@@ -171,7 +171,7 @@ export const ABI = [
 	},
 	{
 		"inputs": [],
-		"name": "MAX_BANANAS",
+		"name": "MAX_skulls",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -777,7 +777,7 @@ export const ABI = [
 				"type": "uint256"
 			}
 		],
-		"name": "viewBananaName",
+		"name": "viewskullName",
 		"outputs": [
 			{
 				"internalType": "string",
