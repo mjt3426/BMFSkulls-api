@@ -6,7 +6,7 @@ import traits from "../../database/traitsfinal.json";
 
 const infuraAddress = INFURA_ADDRESS
 
-const skullApi = async(req, res) => {
+const skulApi = async(req, res) => {
 
     // SOME WEB3 STUFF TO CONNECT TO SMART CONTRACT
   const provider = new Web3.providers.HttpProvider(infuraAddress)
