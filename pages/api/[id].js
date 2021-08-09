@@ -99,7 +99,6 @@ const skullApi = async(req, res) => {
 
     }
     
-    res.statusCode = 200
     res.json(metadata)
   } else {
     res.statuscode = 404
