@@ -67,10 +67,10 @@ const skullApi = async(req, res) => {
     // GENERAL SKULL METADATA
       metadata = {
         "name": tokenName,
-        "description": "Do you have the strength to hold? BoringBananasCo is a community-centered enterprise focussed on preserving our research about the emerging reports that several banana species have begun exhibiting strange characteristics following the recent worldwide pandemic. Our research team located across the globe has commenced efforts to study and document these unusual phenomena. Concerned about parties trying to suppress our research, the team has opted to store our findings on the blockchain to prevent interference. Although this is a costly endeavour, our mission has never been clearer. The fate of the world's bananas depends on it.",
+        "description": "Do you have the strength to hold? BMF Skulls is a secret society hiding right in front of your eyes. Do you have the patience to wait and see?",
         "tokenId" : parseInt(query),
         "image": `https://gateway.pinata.cloud/ipfs/QmbEs3ww4ijPGGvr5kLMCtyhc56x9j1wZVXmQzM3Q74tdH`,
-        "external_url":"https://www.boringbananas.co",
+        "external_url":"https://bmfskulls.art/",
         "attributes": [          
             {
               "trait_type": "Background",
