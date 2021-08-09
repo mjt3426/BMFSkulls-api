@@ -54,12 +54,33 @@ const skullApi = async(req, res) => {
         "description": "BoringBananasCo is a community-centered enterprise focussed on preserving our research about the emerging reports that several banana species have begun exhibiting strange characteristics following the recent worldwide pandemic. Our research team located across the globe has commenced efforts to study and document these unusual phenomena. Concerned about parties trying to suppress our research, the team has opted to store our findings on the blockchain to prevent interference. Although this is a costly endeavour, our mission has never been clearer. The fate of the world's bananas depends on it.",
         "tokenId" : parseInt(query),
         "image": `https://gateway.pinata.cloud/ipfs/${trait["imageIPFS"]}`,
-        "external_url":"https://www.boringbananas.co",
-        "attributes": [   
-          {
-            "trait_type": "Signature Series",
-            "value": trait["Signature Series"]
-          }    
+        "external_url":"https://bmfskulls.art/",
+        "attributes": [          
+            {
+              "trait_type": "Background",
+              "value": "No peeking"
+            },
+            {
+              "trait_type": "Skull",
+              "value": "No peeking"
+            },
+            {
+              "trait_type": "Suits",
+              "value": "No peeking"
+            },
+            {
+              "trait_type": "Eyes",
+              "value": "No peeking"
+            },
+            {
+              "trait_type": "Face",
+              "value": "No peeking"
+            },
+            {
+              "trait_type": "Hats",
+              "value": "No peeking"
+            },
+    
         ]
       }
       // console.log(metadata)
