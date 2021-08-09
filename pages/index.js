@@ -5,21 +5,21 @@ export default function Home() {
   return (
     <div id="bodyy" className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>Boring Bananas Company</title>
+        <title>BMF Skulls</title>
         <link rel="icon" href="/images/favicon.jpg" />
 
-        <meta property="og:title" content="Boring Bananas Co." key="ogtitle" />
+        <meta property="og:title" content="BMF Skulls" key="ogtitle" />
         <meta property="og:description" content="Here at Boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS
 bananas out known to man." key="ogdesc" />
         <meta property="og:type" content="website" key="ogtype" />
-        <meta property="og:url" content="https://boringbananas.co/" key="ogurl"/>
+        <meta property="og:url" content="https://bmfskulls.art/" key="ogurl"/>
         <meta property="og:image" content="https://boringbananas.co/images/Hola.gif" key="ogimage"/>
-        <meta property="og:site_name" content="https://boringbananas.co/" key="ogsitename" />
+        <meta property="og:site_name" content="https://BMFSkulls.art/" key="ogsitename" />
 
         <meta name="twitter:card" content="summary_large_image" key="twcard"/>
-        <meta property="twitter:domain" content="boringbananas.co" key="twdomain" />
-        <meta property="twitter:url" content="https://boringbananas.co/" key="twurl" />
-        <meta name="twitter:title" content="Boring Bananas Co." key="twtitle" />
+        <meta property="twitter:domain" content="bmfskulls" key="twdomain" />
+        <meta property="twitter:url" content="https://bmfskulls.art/" key="twurl" />
+        <meta name="twitter:title" content="BMF Skulls" key="twtitle" />
         <meta name="twitter:description" content="Here at boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS
 bananas out known to man." key="twdesc" />
         <meta name="twitter:image" content="https://boringbananas.co/images/Hola.gif" key="twimage" />
@@ -30,13 +30,13 @@ bananas out known to man." key="twdesc" />
           <div className="flex items-center justify-between w-full border-b-2	pb-6">
             <a href="/" className=""><img src="images/Hola.gif" width="108" alt="" className="logo-image" /></a>
             <nav className="flex flex-wrap flex-row justify-around Poppitandfinchsans">
-              <a href="#about" className="text-4xl text-white hover:text-black m-6">About</a>
+              <a href="https://bmfskulls.art/" className="text-4xl text-white hover:text-black m-6">Home</a>
               <a href="/mint" className="text-4xl text-white hover:text-black m-6">MINT!</a>
               <a href="#traits" className="text-4xl text-white hover:text-black m-6">Banana traits</a>
               <a href="#roadmap" className="text-4xl text-white hover:text-black m-6">Roadmap</a>
               <a href="#team" className="text-4xl text-white hover:text-black m-6">Team</a>
               <a href="#contact" className="text-4xl text-white hover:text-black m-6">Contact</a>
-              <a href="https://twitter.com/boringbananasco" className="text-4xl  hover:text-white m-6 text-blau">TWITTER</a>
+              <a href="https://twitter.com/bmfskulls" className="text-4xl  hover:text-white m-6 text-blau">TWITTER</a>
               <a href="https://discord.gg/8Wk9Hp6UyV" className="text-4xl  hover:text-white m-6 text-blau">DISCORD</a>
             </nav>
              
@@ -88,9 +88,25 @@ bananas out known to man." key="twdesc" />
                   </div>
                 </div>
                 
+                <div id="gallery" className="   mx-6 py-6">
+                    <h2 className="text-blau Poppitandfinchsans text-7xl text-center">SIGNATURE SERIES GALLERY</h2>
+                  <div className="flex flex-wrap  items-center mx-6   py-6 ">
+                    <div className="md:w-1/2">
+                      <div className=" border-blue-300 p-2"><img src="images/gallery1.jpeg" alt="" width="600px" className="feature-image"/></div>
+
+                    </div>
+                    <div className="md:w-1/2 flex flex-wrap">
+                      <div className=" p-2 w-1/2"><img src="images/gallery2.jpeg" alt="" width="400px" className="feature-image"/></div>
+                      <div className=" p-2 w-1/2"><img src="images/gallery3.jpeg" alt="" width="400px" className="feature-image"/></div>
+                      <div className=" p-2 w-1/2"><img src="images/gallery4.jpeg" alt="" width="400px" className="feature-image"/></div>
+                      <div className=" p-2 w-1/2"><img src="images/gallery5.jpeg" alt="" width="400px" className="feature-image"/></div>
+
+                    </div>
+                  </div>
+                </div>
 
               <div id="roadmap" className="">
-                <center><img src="/images/Roadmap.png"/></center>
+                <img src="/images/Roadmap.png"/>
               <h2 className="text-7xl text-center Poppitandfinchsans text-blau my-4">OUR MISSION STATEMENT</h2>
               <p className="text-xl text-white text-center my-6  montserrat"> Simple. To be the largest contributor to charity in the NFT space, as measured by % <span className="font-bold"> of primary sales. </span>  
               </p>
