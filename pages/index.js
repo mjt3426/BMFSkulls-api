@@ -25,10 +25,9 @@ bananas out known to man." key="twdesc" />
 
       <div >
           <div className="flex items-center justify-between w-full border-b-2	pb-6">
-            <a href="/" className=""><img src="images/Hola.gif" width="108" alt="" className="logo-image" /></a>
             <nav className="flex flex-wrap flex-row justify-around Poppitandfinchsans">
               <a href="https://bmfskulls.art/" className="text-4xl text-white hover:text-black m-6">Home</a>
-              <a href="/mint" className="text-4xl text-white hover:text-black m-6">MINT!</a>
+              <a href="httos://bmfskulls.art/mint" className="text-4xl text-white hover:text-black m-6">MINT!</a>
               <a href="#roadmap" className="text-4xl text-white hover:text-black m-6">Roadmap</a>
               <a href="#team" className="text-4xl text-white hover:text-black m-6">Team</a>
               <a href="https://twitter.com/bmfskulls" className="text-4xl  hover:text-white m-6 text-blau">TWITTER</a>
