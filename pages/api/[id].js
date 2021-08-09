@@ -55,7 +55,7 @@ const skullApi = async(req, res) => {
     //7 Days=604800000ms
     if (dateDifference > 86400000) {
         metadata = {
-            "name": "Sorry, Not yet. Do you have the strength to hold?"
+            "name": "Sorry, Not yet. Do you have the strength to hold?",
             "description": "Patience. All will be revealed tomorrow.",
             "tokenId" : parseInt(query),
             "image": 'https://gateway.pinata.cloud/ipfs/QmbEs3ww4ijPGGvr5kLMCtyhc56x9j1wZVXmQzM3Q74tdH',
