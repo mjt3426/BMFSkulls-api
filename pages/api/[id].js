@@ -27,8 +27,8 @@ const skullApi = async(req, res) => {
 
   // IF YOU ARE USING INSTA REVEAL MODEL, UNCOMMENT THIS AND COMMENT THE TWO LINES BELOW
 //   if(parseInt(query) < totalSupply) {
-  const totalBananas = 2000;
-  if(parseInt(query) < totalBananas) {
+  const totalskulls = 2000;
+  if(parseInt(query) < totalskulls) {
 
 
     // CALL CUSTOM TOKEN NAME IN THE CONTRACT
@@ -108,7 +108,7 @@ const skullApi = async(req, res) => {
     res.json(metadata)
   } else {
     res.statuscode = 404
-    res.json({error: "The banana you requested is out of range"})
+    res.json({error: "The skull you requested is out of range"})
 
   }
 
