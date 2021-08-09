@@ -72,11 +72,11 @@ export default function Mint() {
     // console.log("saleisActive" , salebool)
     setSaleStarted(salebool)
 
-    const totalSupply = await bananaContract.methods.totalSupply().call() 
+    const totalSupply = await skullContract.methods.totalSupply().call() 
     setTotalSupply(totalSupply)
 
-    const bananaPrice = await bananaContract.methods.skullPrice().call() 
-    setskullPrice(bananaPrice)
+    const skullPrice = await skullContract.methods.skullPrice().call() 
+    setskullPrice(skullPrice)
    
   }
   
@@ -179,7 +179,7 @@ bananas out known to man." key="twdesc" />
     
                 </div>
                 {saleStarted ? 
-                <button onClick={() => mintBMFSkull(how_many_skulls)} className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-white hover:text-black p-2 ">MINT {how_many_skulls} skullss for {(skullPrice * how_many_skulls) / (10 ** 18)} ETH + GAS</button>        
+                <button onClick={() => mintBMFSkull(how_many_skulls)} className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-white hover:text-black p-2 ">MINT {how_many_skulls} skulls for {(skullPrice * how_many_skulls) / (10 ** 18)} ETH + GAS</button>        
                   : <button className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-white hover:text-black p-2 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>        
             
               }
