@@ -37,7 +37,9 @@ bananas out known to man." key="twdesc" />
           </div>
           
         </div>
- 
+
+        <div className="md:w-2/3 w-4/5 " id="about">
+       
         
           <div className="mt-6 border-b-2 py-6">
             <div className="flex flex-wrap lg:flex-nowrap justify-around items-center">
@@ -58,12 +60,99 @@ bananas out known to man." key="twdesc" />
                 
                 
             </div> 
-    </div> 
-
+            </div>
 
 
 
     
 
-             )
-}
+                <div id="traits" className="flex flex-wrap justify-around items-center  mx-6 py-6">
+                  <div className="border-4 border-blue-300 p-4"><img src="images/Traits4.gif" alt="" width="400px" className="feature-image"/></div>
+                  <div className="flex flex-col justify-between mx-6 sm:w-1/2 w-4/5 py-6 ">
+                    <h2 className="text-blau Poppitandfinchsans text-6xl text-center">BANANA VARIETIES</h2>
+                    <p className="text-xl text-white my-6  montserrat"> The BMF Skulls are a secret society that have been right in the front of your eyes, and you've never known it! We know your move before you do. We move in silence for only a chosen few will be brought on board and privy to see what our secret society sees! Veil will be lifted once we recognize your allegiance to the secret skull society.   
+                    </p>
+                  </div>
+                </div>
+                
+     
+                  </div>
+                </div>
+
+              <div id="roadmap" className="">
+                <center><img src="/images/Roadmap.png"/></center>
+              <h2 className="text-7xl text-center Poppitandfinchsans text-blau my-4">OUR MISSION STATEMENT</h2>
+              <p className="text-xl text-white text-center my-6  montserrat"> Simple. To be the largest contributor to charity in the NFT space, as measured by % <span className="font-bold"> of primary sales. </span>  
+              </p>
+              <h2 className="text-7xl text-center Poppitandfinchsans text-blau my-4">HOW WE'RE GIVING BACK</h2>
+              <p className="text-xl text-white my-6  montserrat">Ever since the inception of the <span className="text-5xl Poppitandfinch ">boring</span> <span className="text-blau text-5xl Poppitandfinchsans">Bananas</span> <span className="text-5xl Poppitandfinch">company</span> after <a target="_blank" href="https://twitter.com/thedigitalvee/status/1405896585142280192" className="underline text-black font-bold">this tweet</a>, our goal has been to <span className="text-blau text-5xl Poppitandfinchsans">GIVE BACK</span> as much as possible.
+              </p>
+              <p className="text-xl text-white my-6  montserrat"> A minimum of 
+              <span className="font-bold"> 25% of all sales</span> are donated to charity. 
+              </p>
+              <p className="text-xl text-white my-6  montserrat"> At 100% sellout, we pledge to donate <span className="font-bold"> 60 ETH </span> from primary sales.
+              </p>      
+              <h2 className="text-6xl text-center Poppitandfinchsans text-blau my-4">ROADMAP</h2>
+              <ul className="">
+                <li className="text-xl text-white my-6  montserrat"><span className="font-bold"> 4 x 10 ETH donations: </span> The first of these will be made to <a target="_blank" href="https://girlswhocode.com/" className="underline text-black font-bold">Girls Who Code</a>, working to empower young women and <span className="font-bold"> close the gender gap </span> in technology. We know women are unrepresented in the NFT space - lets help to fix this! The remaining donations will be made via community vote using <a target="_blank" href="https://thegivingblock.com/" className="underline text-black font-bold">the Giving Block</a>.</li>
+                <li className="text-xl text-white my-6  montserrat"><span className="font-bold"> 20 ETH to Community Wallet: </span> Directed towards supporting creators that want to make a positive contribution to the NFT space.</li>
+                <li className="text-xl text-white my-6  montserrat"><span className="font-bold"> Secondary sales: 5% royalty </span> (2.5% donation, 2.5% to the team). Secondary sales are directed towards charities voted on by the community monthly.</li>
+
+              </ul>
+              <p className="text-xl text-white my-6  montserrat"> In addition, we have been, and continue to make <span className="font-bold underline"> high quality content for the NFT community </span> through our <span className="font-bold underline"> PROJECT IN PROGRESS </span> series, to help budding creators to along their journey. 
+              </p>
+              <p className="text-xl text-white my-6  montserrat"> All fully annotated source code for image generation and the smart contract will be made available after launch as a community resource. 
+              </p>
+
+
+              </div>
+              
+              <div id="team" className="mx-12 my-16 ">
+                <h2 className="text-7xl text-center Poppitandfinchsans text-blau my-4">BANANA RESEARCH TEAM</h2>
+                <div className="flex justify-around flex-wrap">
+                  <div className="flex flex-col  my-6" style={{width:"360px"}}>
+                    <div className="cards-image-mask"><img src="/images/Vee.png" width="360px" alt="" className="cards-image" /></div>
+                    <h3 className="my-4 text-center text-5xl text-center Poppitandfinchsans text-blau">Vee</h3>
+                    <a href="https://twitter.com/thedigitalvee" className="text-center text-4xl text-center Poppitandfinchsans underline text-white"> (@thedigitalvee)</a>
+                  </div>
+                  <div className="flex flex-col  my-6" style={{width:"360px"}}>
+                    <div className="cards-image-mask"><img src="/images/MJ.png" width="360px" alt="" className="cards-image" /></div>
+                    <h3 className="my-4 text-center text-5xl text-center Poppitandfinchsans text-blau">MJDATA</h3>
+                    <a href="https://twitter.com/champagneman" className="text-center text-4xl text-center Poppitandfinchsans underline text-white"> (@champagneman)</a>                </div>
+                  <div className="flex flex-col  my-6" style={{width:"360px"}}>
+                    <div className="cards-image-mask"><img src="/images/MB.png" width="360px" alt="" className="cards-image" /></div>
+                    <h3 className="my-4 text-center text-5xl text-center Poppitandfinchsans text-blau">MADBOOGIE</h3>
+                    <a href="https://twitter.com/madboogieart" className="text-center text-4xl text-center Poppitandfinchsans underline text-white"> (@madboogieart)</a>                </div>
+                  <div className="flex flex-col  my-6" style={{width:"360px"}}>
+                    <div className="cards-image-mask"><img src="/images/Jui.png" width="360px" alt="" className="cards-image" /></div>
+                    <h3 className="my-4 text-center text-5xl text-center Poppitandfinchsans text-blau">Jui</h3>
+                    <a href="https://twitter.com/mz09art" className="text-center text-4xl text-center Poppitandfinchsans underline text-white"> (@mz09art)</a>                </div>
+                  <div className="flex flex-col  my-6" style={{width:"360px"}}>
+                    <div className="cards-image-mask"><img src="/images/Berk.png" width="360px" alt="" className="cards-image" /></div>
+                    <h3 className="my-4 text-center text-5xl text-center Poppitandfinchsans text-blau">BERK</h3>
+                    <a href="https://twitter.com/berkozdemir" className="text-center text-4xl text-center Poppitandfinchsans underline text-white"> (@berkozdemir)</a>                </div>
+                
+                </div>
+       
+
+
+              </div>   
+              <div id="contact" className="flex flex-wrap justify-around items-center  mx-6 py-6">
+                  <div className=" p-4"><img src="images/letstalk.png" alt="" width="400px" className="feature-image"/></div>
+                  <div className="flex flex-col justify-between mx-6 sm:w-1/2 w-4/5 py-6 ">
+                    <h2 className="text-blau Poppitandfinchsans text-6xl text-center">CONTACT BANANA RESEARCH TEAM</h2>
+                    <p className="text-xl text-white my-6  montserrat"> We'd love to hear from you! 
+                    </p>
+                    <p className="text-xl text-white my-6  montserrat"> Drop us a line at <a className="text-black underline font-bold" target="_blank" href="mailto:boringbananas69@gmail.com">boringbananas69@gmail.com</a>,<br/>
+                    or alternatively reach out to us on Twitter <a className="text-black underline font-bold" target="_blank" href="https://twitter.com/boringbananasco">@BoringBananasCo</a><br/> 
+                    Or alternatively, join our <a className="text-black underline font-bold" target="_blank" href="https://discord.gg/8Wk9Hp6UyV">Discord Server</a>.
+                    </p>
+                  </div>
+       
+
+
+              </div>   
+          </div>  
+    </div>  
+    )
+  }
