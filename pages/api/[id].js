@@ -74,23 +74,27 @@ const skullApi = async(req, res) => {
         "attributes": [          
             {
               "trait_type": "Background",
-              "value": trait["Background"]
+              "value": "No peeking"
             },
             {
-              "trait_type": "Banana Base",
-              "value": trait["Banana Base"]
+              "trait_type": "Skull",
+              "value": "No peeking"
             },
             {
-              "trait_type": "Mouth",
-              "value": trait["Mouth"]
+              "trait_type": "Suits",
+              "value": "No peeking"
             },
             {
               "trait_type": "Eyes",
-              "value": trait["Eyes"]
+              "value": "No peeking"
             },
             {
-              "trait_type": "Head Gear",
-              "value": trait["Head Gear"]
+              "trait_type": "Face",
+              "value": "No peeking"
+            },
+            {
+              "trait_type": "Hats",
+              "value": "No peeking"
             },
     
         ]
