@@ -50,8 +50,7 @@ bananas out known to man." key="twdesc" />
                     <p className="text-2xl text-white my-6  montserrat">
                     <strong>LAUNCH DATE:</strong> 29 June 2021. 2pm EST. <br />‍
                     <span className="text-white text-2xl montserrat"><strong>TOTAL SUPPLY: 1000</strong> Skulls.<br/><strong>PRICE: 0.03 ETH </strong>each.</span></p>
-                    <iframe src="https://free.timeanddate.com/countdown/i7xi2bc8/n3687/cf12/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cac000/cpc000/pcfff/tcfff/fs100/szw320/szh135/tatTime%20left%20to%20Event%20in/tac000/tptTime%20since%20Event%20started%20in/tpc000/mac000/mpc000/iso2021-08-15T00:00:00" allowtransparency="true" frameborder="0" width="180" height="69"></iframe>
-
+<iframe src="https://free.timeanddate.com/countdown/i7vcex5b/n107/cf11/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw448/szh189/iso2021-06-29T21:00:00" allowtransparency="true" frameBorder="0" width="425" height="25"></iframe>
                   </div>
                   <img className="lg:w-1/2 w-3/4" src="images/Hola.gif" width="500px" />
             </div>
