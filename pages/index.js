@@ -105,7 +105,7 @@ bananas out known to man." key="twdesc" />
                 </div>
 
               <div id="roadmap" className="">
-                <img src="/images/Roadmap.png"/>
+                <center><img src="/images/Roadmap.png"/></center>
               <h2 className="text-7xl text-center Poppitandfinchsans text-blau my-4">OUR MISSION STATEMENT</h2>
               <p className="text-xl text-white text-center my-6  montserrat"> Simple. To be the largest contributor to charity in the NFT space, as measured by % <span className="font-bold"> of primary sales. </span>  
               </p>
