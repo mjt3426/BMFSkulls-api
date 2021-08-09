@@ -13,9 +13,7 @@ export default function Home() {
 bananas out known to man." key="ogdesc" />
         <meta property="og:type" content="website" key="ogtype" />
         <meta property="og:url" content="https://bmfskulls.art/" key="ogurl"/>
-        <meta property="og:image" content="https://boringbananas.co/images/Hola.gif" key="ogimage"/>
         <meta property="og:site_name" content="https://BMFSkulls.art/" key="ogsitename" />
-
         <meta name="twitter:card" content="summary_large_image" key="twcard"/>
         <meta property="twitter:domain" content="bmfskulls" key="twdomain" />
         <meta property="twitter:url" content="https://bmfskulls.art/" key="twurl" />
@@ -31,10 +29,8 @@ bananas out known to man." key="twdesc" />
             <nav className="flex flex-wrap flex-row justify-around Poppitandfinchsans">
               <a href="https://bmfskulls.art/" className="text-4xl text-white hover:text-black m-6">Home</a>
               <a href="/mint" className="text-4xl text-white hover:text-black m-6">MINT!</a>
-              <a href="#traits" className="text-4xl text-white hover:text-black m-6">Banana traits</a>
               <a href="#roadmap" className="text-4xl text-white hover:text-black m-6">Roadmap</a>
               <a href="#team" className="text-4xl text-white hover:text-black m-6">Team</a>
-              <a href="#contact" className="text-4xl text-white hover:text-black m-6">Contact</a>
               <a href="https://twitter.com/bmfskulls" className="text-4xl  hover:text-white m-6 text-blau">TWITTER</a>
               <a href="https://discord.gg/vc7XrBzP" className="text-4xl  hover:text-white m-6 text-blau">DISCORD</a>
             </nav>
