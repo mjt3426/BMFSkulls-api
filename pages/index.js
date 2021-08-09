@@ -22,7 +22,6 @@ bananas out known to man." key="ogdesc" />
         <meta name="twitter:title" content="BMF Skulls" key="twtitle" />
         <meta name="twitter:description" content="Here at boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS
 bananas out known to man." key="twdesc" />
-        <meta name="twitter:image" content="https://boringbananas.co/images/Hola.gif" key="twimage" />
       </Head>
 
 
@@ -37,7 +36,7 @@ bananas out known to man." key="twdesc" />
               <a href="#team" className="text-4xl text-white hover:text-black m-6">Team</a>
               <a href="#contact" className="text-4xl text-white hover:text-black m-6">Contact</a>
               <a href="https://twitter.com/bmfskulls" className="text-4xl  hover:text-white m-6 text-blau">TWITTER</a>
-              <a href="https://discord.gg/8Wk9Hp6UyV" className="text-4xl  hover:text-white m-6 text-blau">DISCORD</a>
+              <a href="https://discord.gg/vc7XrBzP" className="text-4xl  hover:text-white m-6 text-blau">DISCORD</a>
             </nav>
              
           </div>
