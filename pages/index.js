@@ -43,7 +43,7 @@ export default function Mint() {
       .then(function (accounts) {
         window.web3.eth.net.getNetworkType()
         // checks if connected network is mainnet (change this to rinkeby if you wanna test on testnet)
-        .then((network) => {console.log(network);if(network != "main"){alert("You are on " + network+ " network. Change network to mainnet or you won't be able to do anything here")} });  
+        .then((network) => {console.log(network);if(network != "ropsten"){alert("You are on " + network+ " network. Change network to mainnet or you won't be able to do anything here")} });  
         let wallet = accounts[0]
         setWalletAddress(wallet)
         setSignedIn(true)
@@ -83,7 +83,7 @@ export default function Mint() {
   async function mintBMFSkull(how_many_skulls) {
     if (skullContract) {
  
-      const price = Number(skullPrice)  * how_many_skull 
+      const price = Number(skullPrice)  * how_many_skulls 
 
       const gasAmount = await skullContract.methods.mintBMFSkull(how_many_skulls).estimateGas({from: walletAddress, value: price})
       console.log("estimated gas",gasAmount)
@@ -179,7 +179,7 @@ bananas out known to man." key="twdesc" />
     
                 </div>
                 {saleStarted ? 
-                <button onClick={() => mintBanana(how_many_bananas)} className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-white hover:text-black p-2 ">MINT {how_many_skulls} skullss for {(skullPrice * how_many_skulls) / (10 ** 18)} ETH + GAS</button>        
+                <button onClick={() => mintBMFSkull(how_many_skulls)} className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-white hover:text-black p-2 ">MINT {how_many_skulls} skullss for {(skullPrice * how_many_skulls) / (10 ** 18)} ETH + GAS</button>        
                   : <button className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-white hover:text-black p-2 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>        
             
               }
