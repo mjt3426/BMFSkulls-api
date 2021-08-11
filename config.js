@@ -127,7 +127,7 @@ export const ABI = [
 				"type": "string"
 			}
 		],
-		"name": "bananaNameChange",
+		"name": "skullNameChange",
 		"type": "event"
 	},
 	{
@@ -145,7 +145,7 @@ export const ABI = [
 	},
 	{
 		"inputs": [],
-		"name": "BANANA_PROVENANCE",
+		"name": "skull_PROVENANCE",
 		"outputs": [
 			{
 				"internalType": "string",
@@ -171,7 +171,7 @@ export const ABI = [
 	},
 	{
 		"inputs": [],
-		"name": "MAX_BANANAS",
+		"name": "MAX_skulls",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -227,7 +227,7 @@ export const ABI = [
 				"type": "uint256"
 			}
 		],
-		"name": "bananaNames",
+		"name": "skullsNames",
 		"outputs": [
 			{
 				"internalType": "string",
@@ -246,7 +246,7 @@ export const ABI = [
 				"type": "address"
 			}
 		],
-		"name": "bananaNamesOfOwner",
+		"name": "skullsNamesOfOwner",
 		"outputs": [
 			{
 				"internalType": "string[]",
@@ -259,7 +259,7 @@ export const ABI = [
 	},
 	{
 		"inputs": [],
-		"name": "bananaPrice",
+		"name": "skullPrice",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -272,7 +272,7 @@ export const ABI = [
 	},
 	{
 		"inputs": [],
-		"name": "bananaReserve",
+		"name": "skullReserve",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -309,7 +309,7 @@ export const ABI = [
 				"type": "string"
 			}
 		],
-		"name": "changeBananaName",
+		"name": "changeSkullName",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -386,7 +386,7 @@ export const ABI = [
 	},
 	{
 		"inputs": [],
-		"name": "maxBananaPurchase",
+		"name": "maxskullPurchase",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -405,7 +405,7 @@ export const ABI = [
 				"type": "uint256"
 			}
 		],
-		"name": "mintBoringBanana",
+		"name": "mintBMFSkull",
 		"outputs": [],
 		"stateMutability": "payable",
 		"type": "function"
@@ -475,7 +475,7 @@ export const ABI = [
 				"type": "uint256"
 			}
 		],
-		"name": "reserveBananas",
+		"name": "reserveskulls",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -777,7 +777,7 @@ export const ABI = [
 				"type": "uint256"
 			}
 		],
-		"name": "viewBananaName",
+		"name": "viewskullName",
 		"outputs": [
 			{
 				"internalType": "string",
